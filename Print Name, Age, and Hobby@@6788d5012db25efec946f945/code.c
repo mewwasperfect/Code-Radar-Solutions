@@ -7,6 +7,6 @@ int main() {
     scanf("%99s" , hobby);
     prinf("Name: %s\n",name);
     print("Age: %d\n" , age);
-    ptintf("Hobby: %s\n", hobby);
+    printf("Hobby: %s\n", hobby);
     return 0 ;
 }
