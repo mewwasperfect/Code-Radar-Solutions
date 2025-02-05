@@ -7,11 +7,10 @@ int main() {
         printf ("vowel")
     } else if (('b'<=ch<='z') && (ch != 'a') || (ch != 'e') || (ch != 'i') || (ch != 'o') || (ch != 'u')){
         printf("Consonant");
-    }else if ((ch == '!') || (ch == '@') || (ch == '#') || (ch == '$') ||(ch == '%') ||(ch == '^') ||(ch == '&') ||(ch == '*')){
+    }else if (0<=ch<=9){
+        printf("Digit");
+    } else {
         printf("Special Character");
-    }
-     else {
-        printf("Not an Alphabet");
     }
     return 0;
 }
