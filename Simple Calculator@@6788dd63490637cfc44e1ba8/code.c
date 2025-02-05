@@ -18,11 +18,12 @@ int main() {
             break;
         
         case '/' :
-            printf("%.0lf" , a/b);
+            if (b != 0){
+                printf("%.0lf" , a/b);
+            } else {
+                printf("error");
+            }
             break;
-
-        default:
-            printf("error");
     }
     return 0;
 }
