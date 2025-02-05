@@ -3,6 +3,12 @@
 int main() {
     char x ;
     scanf("%c" , &x);
-    (x >= 'A' && x <= 'Z') ? printf("Uppercase") : printf("Lowercase") : printf ("Not an alphabet");
+    if (x >= 'A' && x <= 'Z') {
+        printf("Uppercase");
+    } else if (x >=m 'a' && x <= 'z'){
+        printf("Lowercse");
+    } else {
+        printf("Not an alphabet");
+    }
     return 0 ;
 }
