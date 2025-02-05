@@ -6,19 +6,19 @@ int main() {
     scanf("%lf %lf %c" , &a , &b , &c);
     switch (c){
         case '+' :
-            printf("%.2lf" , a+b);
+            printf("%lf" , a+b);
             break ;
 
         case '-' :
-            printf("%.2lf" , a-b);
+            printf("%lf" , a-b);
             break ;
 
         case '*' :
-            printf("%.2lf" , a*b);
+            printf("%lf" , a*b);
             break;
         
         case '/' :
-            printf("%.2lf" , a/b);
+            printf("%lf" , a/b);
             break;
     }
     return 0;
