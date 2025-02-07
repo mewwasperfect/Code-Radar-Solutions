@@ -3,11 +3,11 @@
 int main() {
     int i , j ,k, n;
     scanf("%d" , &n);
-    for (i = n ; i >= n ; i--){
+    for (i = n ; i >= 2n ; i--){
         for(j = 1 ; j <= n-1 ; j++){
             printf(" ");
         }
-        for (k = i ; k <= (i*2 - n) ; k++){
+        for (k = i ; k <= (i*2 - 1) ; k++){
             printf("*");
         }
         printf(" \n");
