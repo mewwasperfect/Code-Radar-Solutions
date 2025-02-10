@@ -7,7 +7,7 @@ int main() {
     while (a<11){
         mul = a * n ;
         printf("%d X %d = %d" , n , a , mul);
-        a++
+        a++;
     }
     return 0;
 }
