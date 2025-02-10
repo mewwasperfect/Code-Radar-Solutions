@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int a  , n;
+    int a  , n , mul ;
     scanf("%d" , &n);
     a = 1 ;
     while (a<11){
-        printf("%d X %d = %d" , n , a , n*a);
+        mul a * n ;
+        printf("%d X %d = %d" , n , a , mul);
     }
     return 0;
 }
