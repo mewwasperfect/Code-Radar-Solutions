@@ -2,16 +2,10 @@
 
 int main() {
     int num, n;
-
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    printf("Enter the bit position to toggle (0-based): ");
-    scanf("%d", &n);
-
+    scanf("%d %d", &num , &n);
     num = num ^ (1 << n);
 
-    printf("New number after toggling bit %d: %d\n", n, num);
+    printf("%d\n" ,num);
 
     return 0;
 }
