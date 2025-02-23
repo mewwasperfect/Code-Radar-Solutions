@@ -12,4 +12,6 @@ int main() {
         num = num >> 1;
         pos++;
     }
+    printf("%d\n" , pos);
+    return 0;
 }
