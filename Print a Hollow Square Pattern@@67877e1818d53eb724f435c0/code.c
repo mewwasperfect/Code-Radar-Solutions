@@ -7,9 +7,6 @@ int main (){
         for (j = 1 ; j < N ; ++j){
             printf("*");
         }
-        for (k = 1 ; k < (i-3) ; k++){
-            printf("*");
-        }
     printf("*\n");
     }
     return 0;
