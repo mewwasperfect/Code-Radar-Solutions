@@ -1,14 +1,16 @@
 #include <stdio.h>
 
+void printBinary(int num) {
+    if (num > 1) 
+        printBinary(num / 2);  
+    printf("%d", num % 2);
+}
+
 int main() {
     int num;
     scanf("%d", &num);
-
-    while (num > 0) {
-        printf("%d", num % 2); 
-        num = num / 2;         
-    }
-
+    if (num == 0) printf("0"); 
+    else printBinary(num);
     printf("\n");
     return 0;
 }
