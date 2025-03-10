@@ -9,7 +9,7 @@ int main (){
             printf("%d " , number);
             number = number-1;
         }
-        printf("/n")
+        printf("/n");
     }
     return 0;
 }
