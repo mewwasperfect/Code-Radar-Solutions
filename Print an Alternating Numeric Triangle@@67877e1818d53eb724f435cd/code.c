@@ -7,7 +7,7 @@ int main (){
         int number = i % 2;
         for (j = 1 ; j <= i ; j++){
             printf("%d " , number);
-            number = number-1;
+            number = 1-number;
         }
         printf("\n");
     }
