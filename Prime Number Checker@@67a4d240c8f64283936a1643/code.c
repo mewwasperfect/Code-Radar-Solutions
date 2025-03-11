@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int IsPrimeNumber(int n){
+int isprime(int n){
     int i ;
     for (i=0 ; i <= n ; i++){
         scanf("%d" , &n);
@@ -9,6 +9,6 @@ int IsPrimeNumber(int n){
 }
 
 int main (int num){
-    printf("%d\n" , IsPrimeNumber(num));
+    printf("%d\n" , isprime(num));
     return 0;
 }
