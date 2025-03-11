@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+int NoOfRectangles(int r){
+    scanf("%d" , &r);
+    for(int R = 1 ; R <= r ; R++){
+        return R;
+    }
+}
 int Area(int a){
 
 }
@@ -8,10 +14,9 @@ int Perimeter(int p){
 
 }
 
-int main(int r){
-    scanf("%d" , &r);
-    for(int R = 1 ; R <= r ; R++){
-        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n" , R);
-    }
+int main(){
+    int n ; 
+    scanf("%d" , &n);
+    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n" , NoOfRectangles(n));
     return 0 ;
 }
