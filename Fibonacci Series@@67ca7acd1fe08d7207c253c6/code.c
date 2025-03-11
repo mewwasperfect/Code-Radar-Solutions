@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void fibonacci(int n) {
+void fibonacciseries(int n) {
     int a = 0, b = 1, term;
     
     printf("Fibonacci Series: ");
@@ -20,7 +20,7 @@ int done() {
     if (n <= 0) {
         return 0;
     } else {
-        fibonacci(n);
+        fibonacciseries(n);
     }
 
     return 0;
