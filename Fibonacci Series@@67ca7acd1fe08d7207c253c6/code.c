@@ -6,7 +6,7 @@ void fibonacci(int n) {
     printf("Fibonacci Series: ");
     for (int i = 1; i <= n; i++) {
         printf("%d ", a);
-        nextTerm = a + b;
+        term = a + b;
         a = b;
         b = term;
     }
