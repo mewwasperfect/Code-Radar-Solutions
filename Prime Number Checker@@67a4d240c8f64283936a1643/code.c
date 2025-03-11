@@ -8,7 +8,13 @@ int isPrime(int n){
     (n%2 == 0) ? printf("1") : printf("0");
 }
 
-int main (int num){
-    printf("%d\n" , isPrime(num));
+int main (){
+    int t;
+    scanf("%d" , &t);
+    while(t--){
+        int num;
+        scanf("%d" , &num);
+        printf("%d\n" , isPrime(num));
+    }
     return 0;
 }
