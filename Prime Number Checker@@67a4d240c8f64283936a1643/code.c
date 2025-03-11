@@ -11,7 +11,7 @@ int isPrime(int num){
 }
 
 
-int main(){
+int Prime(){
     int t ;
     while (t--){
         int num ;
