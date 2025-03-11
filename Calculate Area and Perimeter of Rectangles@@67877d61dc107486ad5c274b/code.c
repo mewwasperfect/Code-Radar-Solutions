@@ -3,7 +3,7 @@
 int main(int r){
     scanf("%d" , &r);
     for(int R = 1 ; R <= r ; R++){
-        printf("Rectangle %d: " , r);
+        printf("Rectangle %d: \n" , r);
     }
     return 0 ;
 }
