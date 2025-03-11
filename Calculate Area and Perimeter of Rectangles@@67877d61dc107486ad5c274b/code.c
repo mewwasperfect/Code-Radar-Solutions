@@ -22,7 +22,7 @@ int main() {
         int area = Area(length, width);
         int perimeter = Perimeter(length, width);
 
-        printf("Rectangle %d: Area = %d, Perimeter = %d\n", i, area, perimeter);
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n", i, area, perimeter);
     }
 
     return 0;
