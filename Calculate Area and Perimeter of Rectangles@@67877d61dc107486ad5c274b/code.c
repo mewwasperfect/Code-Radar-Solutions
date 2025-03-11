@@ -3,7 +3,7 @@
 int NoOfRectangles(int r){
     scanf("%d" , &r);
     for(int R = 1 ; R <= r ; R++){
-        return R;
+        return r;
     }
 }
 int Area(int a){
