@@ -11,14 +11,3 @@ void fibonacciSeries(int n) {
     printf("\n");
 }
 
-int done() {
-    int n;
-    scanf("%d", &n);
-
-    if (n <= 0) {
-        return 0;
-    } else {
-        fibonacciSeries(n);
-    }
-    return 0;
-}
