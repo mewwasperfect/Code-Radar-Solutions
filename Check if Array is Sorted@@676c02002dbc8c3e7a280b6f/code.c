@@ -8,7 +8,7 @@ int main (){
             printf(" ");             
        }
        scanf("%d" , &N);
-       printf("%d" , N)
+       printf("%d" , N);
     }
     return 0 ;
 }
