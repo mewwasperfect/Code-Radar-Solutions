@@ -20,6 +20,5 @@ int done() {
     } else {
         fibonacciSeries(n);
     }
-
     return 0;
 }
