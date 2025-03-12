@@ -7,6 +7,7 @@ int main (){
         scanf("%d" , &n);
         printf("%d " , n);            
     }
+    printf("%ch" , Sort(n))
     return 0 ;
 }
 
