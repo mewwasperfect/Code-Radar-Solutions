@@ -9,3 +9,12 @@ int main (){
     }
     return 0 ;
 }
+
+int Sort(){
+    int n ;
+    for (int j = 1 ; j <= n[0] ; j++){
+        if (j<n[0]){
+            printf("Sorted");
+        }
+    }
+}
