@@ -6,4 +6,7 @@ int main (){
     int length ;
     scanf("%d" , &input);
     length = strlen(input);
+    if (length < 2){
+        printf("%s" , input);
+    }
 }
