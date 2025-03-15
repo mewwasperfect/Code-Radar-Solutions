@@ -10,7 +10,7 @@ int main (){
         printf("%s\n" , input);
     } else {
         for (int i = length - 1 ; i >= 0 ; --i){
-            printf("%s" , input[i]);
+            printf("%c" , input[i]);
         }
     }
     printf("\n");
