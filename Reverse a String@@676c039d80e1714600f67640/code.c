@@ -13,6 +13,5 @@ int main (){
             printf("%c" , input[i]);
         }
     }
-    printf("\n");
     return 0 ;
 }
