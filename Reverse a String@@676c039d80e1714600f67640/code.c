@@ -4,9 +4,9 @@
 int main (){
     char input[100];
     int length ;
-    scanf("%d" , &input);
+    scanf("%s" , &input);
     length = strlen(input);
     if (length < 2){
-        printf("%s" , input);
+        printf("%s\n" , input);
     }
 }
