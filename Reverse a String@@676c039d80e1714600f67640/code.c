@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main (){
-    char input[];
+    char input[100];
     int length ;
     scanf("%d" , &input);
     length = strlen(input);
