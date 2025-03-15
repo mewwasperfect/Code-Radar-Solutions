@@ -5,5 +5,5 @@ int main (){
     char input[];
     int length ;
     scanf("%d" , &input);
-    length = strlen(input[]);
+    length = strlen(input);
 }
