@@ -7,7 +7,7 @@ int main (){
     for (i = 1 ; i <= n ; i++){
         character = 'A' ;
         for (j = 1 ; j <= i ; j++){
-            printf("%c" , character);
+            printf("%c " , character);
             character++;
         }
         printf("\n");
