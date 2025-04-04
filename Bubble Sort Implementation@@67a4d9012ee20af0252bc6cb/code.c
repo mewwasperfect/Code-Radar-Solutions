@@ -16,4 +16,5 @@ void bubbleSort(int arr[] , int n){
             }
         }
     }
+    printf("\n");
 }
