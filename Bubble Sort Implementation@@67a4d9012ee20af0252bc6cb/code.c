@@ -1,16 +1,19 @@
-#include <stdio.h>
-
-int bubbleSort(int a , int b){
-    
-}
-int main (){
-    int n ;
-    scanf("%d" , &n);
-    int arr[n];
-    for (int i = 0 ; i <n ; i++){
-        scanf("%d" , &arr[n]);
+void printArray(int arr[] , int n){
+    for (int i = 0 ; i < n ; i++){
+        printArray("%d" , arr[i]);
     }
-    bubbleSort(arr , n);
-    printArray(arr , n);
-    return 0 ;
+    printf("\n");
+}
+
+void bubbleSort(int arr[] , int n){
+    int temp ;
+    for (int i = 0 ; i < n-1 ; i++){
+        for (int i = 0 ; i < (n-1-i) ; j++){
+            if (arr[i] > arr[j+1]){
+                arr[i] = temp ;
+                arr[i] = arr[j+1];
+                arr[j+1] = temp ;
+            }
+        }
+    }
 }
